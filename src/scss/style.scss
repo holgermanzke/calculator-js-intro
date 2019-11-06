@@ -1,0 +1,56 @@
+$color-primary: #1d1866;
+$color-secondary: #b39807;
+$color-third: white;
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  background: $color-primary;
+  width: 80%;
+  max-width: 600px;
+  margin-top: 20px;
+  margin: auto;
+  height: 600px;
+  border: 2px solid black;
+}
+#result {
+  flex-grow: 1;
+  background: $color-secondary;
+  display: flex;
+}
+
+#digits {
+  height: 50px;
+}
+.input-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.result-box {
+  background: $color-third;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[name="second"] {
+  background: lightpink;
+}
+input[name="first"] {
+  background: lightgreen;
+}
+button {
+  background: lightblue;
+}
+#result {
+  font-size: 1.2em;
+  font-weight: bold;
+}

@@ -19,6 +19,7 @@ sumButton.addEventListener("click", function() {
   const secondNumber = parseInt(secondInput.value);
   result.innerHTML = sum(firstNumber, secondNumber);
   digits.innerHTML = countDigits(sum(firstNumber, secondNumber));
+  // instead of overriding innerHTML better add a new element and append it
 });
 
 substractionButton.addEventListener("click", function() {
