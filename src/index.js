@@ -1,6 +1,6 @@
 "use strict";
 
-import { sum, sub, multi, div } from "./lib/operators";
+import { sum, sub, multi, div, countDigits } from "./lib/operators";
 
 const firstInput = document.querySelector("[name=first]");
 const secondInput = document.querySelector("[name=second]");
