@@ -27,7 +27,3 @@ export function countDigits(n) {
   }
   return count;
 }
-console.log(countDigits(12112));
-
-console.log(countDigits(457));
-console.log(countDigits(-42));
