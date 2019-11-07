@@ -1,0 +1,23 @@
+.operator-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  background: $color-fourth;
+  font-size: 1em;
+  color: $color-third;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 150px;
+  outline: none;
+  border: 1px solid $color-third;
+  &:active {
+    border: 1px solid $color-secondary;
+  }
+}
+#operator {
+  color: $color-secondary;
+  font-size: 1.5em;
+}

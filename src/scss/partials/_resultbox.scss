@@ -1,0 +1,30 @@
+.result-box {
+  background: $color-secondary;
+  display: flex;
+  height: 100px;
+  // flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 50px;
+}
+#result {
+  // flex-grow: 1;
+  font-size: 3.2em;
+  font-weight: bold;
+}
+.further-result {
+  margin: 10px 0 10px 20px;
+  font-size: 0.9em;
+  color: $color-primary;
+  overflow: auto;
+  height: 100%;
+  width: 50px;
+}
+
+#digits {
+  height: 50px;
+  align-self: flex-end;
+  padding-right: 10px;
+  color: white;
+}
